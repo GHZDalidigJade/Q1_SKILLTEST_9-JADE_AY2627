@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 ICT Skills Test</title>
+    <link rel="stylesheet" href="Q1SkillsTest.css">
+</head>
+<body>
+
+    <h1>OBMC Robotics Club Application Form</h1>
+    <h2>Welcome to the BMC Robotics Club!</h2>
+    <p>The OBMC Robotics Club is for students who are internested in building robots and learning about more about ICT.</p>
+    
+    <p>Click on this <a href="https://www.nasa.gov/robotics" target="_blank">NASA Robotics Article</a> to know more about real-world applications of robotics.</p>
+
+    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500" alt="Robotics Image">
+
+    <h2>Robototics Club Information</h2>
+
+    <h3>What you will be learning</h3>
+    <ul>
+        <li>Robot Assembly and Mechanics</li>
+        <li>Programming Logic and Sensors</li>
+        <li>Problem Solving with Teamwork</li>
+    </ul>
+
+    <h3>How To Apply</h3>
+    <ol>
+        <li>Fill out and submit this form.</li>
+        <li>Attend the club orientation.</li>
+        <li>Get assigned to a project group.</li>
+    </ol>
+
+    <h3>Club Teams</h3>
+    <dl>
+        <dt>Hardware Team</dt>
+        <dd>Focuses on physical construction and wiring.</dd>
+        <dt>Software Team</dt>
+        <dd>Focuses on writing code for motor control and
+            movement.</dd>
+    </dl>
+
+    <h2>Application Form</h2>
+    <form action="#">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="student@obmc.edu.ph" required><br><br>
+
+        <label>Year Level:</label><br>
+        <input type="radio" id="g7" name="year_level" value="Grade 7" required>
+        <label for="g7">Grade 7</label><br>
+        <input type="radio" id="g8" name="year_level" value="Grade 8">
+        <label for="g8">Grade 8</label><br>
+        <input type="radio" id="g9" name="year_level" value="Grade 9">
+        <label for="g9">Grade 9</label><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interest" value="Coding">
+        <label for="coding">Coding / Software</label><br>
+        <input type="checkbox" id="building" name="interest" value="Building">
+        <label for="building">Mechanical Assembly</label><br>
+        <input type="checkbox" id="electronics" name="interest" value="Electronics">
+        <label for="electronics">Circuits & Electronics</label><br><br>
+
+        <label for="experience">Experience Level:</label><br>
+        <select id="experience" name="experience" required>
+            <option value="">Select</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select><br><br>
+
+        <label for="reason">Why do you want to join?</label><br>
+        <textarea id="reason" name="reason" rows="4" placeholder="Explain your reason for joining..." required></textarea><br><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+
+</body>
+</html>
